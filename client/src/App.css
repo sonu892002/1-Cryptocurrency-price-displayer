@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 2vw;
+}
+
+
+.App{
+  
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.maindiv{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+ 
+  border: 15px solid pink;
+  width: 40%;
+  height: auto;
+  margin: 20px;
+  border-radius: 20px;
+ 
+ 
+  
+}
+.coinid{
+color: blanchedalmond;
+display: flex;
+border-bottom: 2px solid yellow;
+justify-content: center;
+align-items: center;
+width:100%;
+
+
+
+
+}
+
+
+.navbar{
+  background-color: orange;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  width: 50%;
+  height:40px;
+}
+button{
+  background-color: darkslategray;
+  color: aliceblue;
+  border-style: none;
+  margin-left: 30px;
+  padding: 10px 35px;
+  
+  border-radius: 10px;
+}
+
+img{
+  width:10vw;
+  
+}
